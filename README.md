@@ -1,6 +1,5 @@
-##Ceci est un test
-*Est-ce que vous arrivez à le recevoir?*
+##Agence n°2
 
-Si oui, essayer de déposer vous aussi un fichier et de le commit :3
+Répertoire des ressources web des projets de l'agence n°2
 
-vive Git~
+*people powered culture*
