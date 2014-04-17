@@ -1,0 +1,10 @@
+Où mettre quoi?
+===
+
+* le dossier "sources" contient les matériaux dont l'intégrateur a besoin pour coder (maquettes, icones, images, textes à insérer etc...). En gros c'est le dossier géré par le designer :)
+* Le dossier "spec" rassemble tous les documents décrivant le projet. Wireframe, arbo mais aussi le cahier des charges, les checklists etc...
+* le dossier "www" réservé à l'intégration proprement dite. C'est la où on met le code source pur, qui sera uploadé sur le serveur :)
+
+Have fun!
+
+-Raphaël.
