@@ -1,6 +1,6 @@
-Agence n°2
+Agence panoreyes
 ===
 
-Répertoire des ressources web des projets de l'agence n°2
+Répertoire des ressources web des projets de l'agence panoreyes
 
 *people powered culture*
