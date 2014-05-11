@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url('fonts/Helvetica-Light.ttf');
+}
+body{
+	margin:0px;
+}
+
+
+/* DEBUT HEADER */
+header{
+	background-image: url(img/font_header.JPG); 
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	height: 668px;
+}
+.content{
+	width: 1000px;
+	margin: auto;
+}
+#logo{
+	width: 172px;
+	height: 172px;
+}
+header h1{
+	margin-left: 123px;
+	font-size: 65px;
+	color: #fff;
+	text-shadow: 0px 0.5px 7px black;
+	font-family: HelveticaNeue;
+	margin-bottom: 0px;
+}
+header h2{
+	margin-left: 123px;
+	margin-top: 0px;
+	font-size: 45px;
+	color: #fff;
+	font-family: HelveticaNeue;
+	text-shadow: 0px 0.5px 7px black;
+}
+#fleche{
+	margin-left: 123px;
+	margin-right: 22px;
+}
+header form{
+	padding-top:0px;
+}
+#mail{
+	position: relative;
+	top:-20px;
+	display: inline-block;
+	border: solid 2px white;
+	border-radius: 5px;
+}
+header input{
+	margin: 0px;
+	padding: 0px;
+}
+input::-webkit-input-placeholder {
+	opacity:1 ;
+	color: black;
+	font-size: 20px;
+}
+#mail #email{
+	height: 32px;
+	width: 192px;
+	background-color: white;
+	opacity: 0.3;
+	color: black;
+	font-size: 18px;
+	font-family: HelveticaNeue;
+	padding-left: 5px;
+	border: none;
+	border-radius: 4px 0px 0px 4px;
+	margin: 0px;
+}
+#mail #submit{
+	height: 32px;
+	width: 170px;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	background-color: #e8565d;
+	color: white;
+	font-size: 18px;
+	font-family: HelveticaNeue;
+	border-radius: 0px 4px 4px 0px;
+}
+/* FIN HEADER */
+
+
+
+/* DEBUT PAGE AGENCE*/
+#agence{
+	height:556px;
+	width: 1000px;
+	margin: auto;
+}
+#agence h1{
+	margin-top: 70px;
+	font-size: 48px;
+	color: #5b5f6c;
+	text-align: center;
+	font-family: HelveticaNeue;
+}
+#agence h3{
+	text-align: center;
+	color: #8891a0;
+	font-size: 24px;
+	font-family: HelveticaNeue;
+}
+#agence iframe{
+	text-align: center;
+	margin-top: 60px;
+	display: block;
+    width: 560px;
+    height: 315px;
+    margin: auto;
+    margin-top: 50px;
+    border: 0;
+}
+/* FIN PAGE AGENCE */
