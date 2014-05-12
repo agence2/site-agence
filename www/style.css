@@ -32,12 +32,11 @@ src: url('fonts/proximanova-thin-webfont.eot#iefix') format('embedded-opentype')
      url('fonts/proximanova-thin-webfont.woff') format('woff'), 
      url('fonts/proximanova-thin-webfont.ttf')  format('truetype');
 }
-
 html, body{
 	margin:0;
+	padding: 0;
 	height: 100%;
-
-/* Configuration pour avoir des polices visuellement sexy */
+	/* Configuration pour avoir des polices sexy */
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -69,6 +68,7 @@ header{
   	-o-background-size: cover;
   	background-size: cover;
   	height: 100%;
+  	overflow: hidden;
 }
 
 .content{
@@ -163,11 +163,11 @@ input::-webkit-input-placeholder {
 /* DEBUT PAGE AGENCE*/
 #agence{
 	height:556px;
-	width: 1000px;
+	width: 100%;
 	margin: auto;
 }
 #agence h2{
-	margin-top: 70px;
+	margin-top: 5%;
 	font-size: 48px;
 	color: #5b5f6c;
 	text-align: center;
@@ -181,12 +181,12 @@ input::-webkit-input-placeholder {
 }
 #agence iframe{
 	text-align: center;
-	margin-top: 60px;
 	display: block;
     width: 560px;
     height: 315px;
-    margin: auto;
-    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5%;
     border: 0;
 }
 /* FIN PAGE AGENCE */
