@@ -130,7 +130,7 @@ header form{
 	display: inline-block;
 	border: solid 2px white;
 	border-radius: 5px;
-	width: 371px;
+	/*width: 371px;*/
 }
 img[id=logo]{
 	margin-left:-20px;
@@ -149,7 +149,7 @@ input::-webkit-input-placeholder {
 /*à voir: "entrez votre e-mail" n'arrive pas à être blanc */
 #mail #email{
 	height: 30px;
-	width: 205px;
+	width: 200px;
 	background-color: white;
 	opacity: 0.3;
 	color: white;
