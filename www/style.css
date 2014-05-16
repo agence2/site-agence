@@ -60,7 +60,7 @@ html, body{
 /* MENU */
 nav{
 	position: fixed;
-	right: 50px;
+	right: 2%;
 	/*left: 1250px;*/
 	top:200px;
 }
@@ -152,7 +152,7 @@ input::-webkit-input-placeholder {
 	width: 200px;
 	background-color: white;
 	opacity: 0.3;
-	color: white;
+	color: black;
 	font-size: 18px;
 	font-family: HNThin;
 	padding-left: 10px;
@@ -195,11 +195,33 @@ input::-webkit-input-placeholder {
 	font-size: 24px;
 	font-family: PNThin;
 }
+#agence ul{
+	width: 85%;
+	border: solid 1px red;
+	text-align: center;
+	margin: auto;
+	padding-left: 0px;
+}
+#agence li{
+	display: inline-block;
+	border: solid 1px blue;
+	vertical-align: top;
+}
+#agence .texte_agence{
+	width: 20%;
+	margin: 10px;
+}
+.texte_agence img{
+	float: left;
+}
+#agence .video{
+	width: 50%;
+}
 #agence iframe{
 	text-align: center;
 	display: block;
-    width: 560px;
-    height: 315px;
+    width: 100%;
+    /*height: 315px;*/
     margin-left: auto;
     margin-right: auto;
     margin-top: 3.5%;
