@@ -140,11 +140,19 @@ header input{
 	margin: 0;
 	padding: 0;
 }
-input::-webkit-input-placeholder {
-	opacity:1;
+
+input::-webkit-input-placeholder { opacity:1;
 	color: black;
-	font-size: 18px;
-}
+	font-size: 18px; }
+input::-moz-placeholder { opacity:1;
+	color: black;
+	font-size: 18px; }
+input:-ms-input-placeholder { opacity:1;
+	color: black;
+	font-size: 18px;; }
+input::placeholder { opacity:1;
+	color: black;
+	font-size: 18px; }
 
 /*à voir: "entrez votre e-mail" n'arrive pas à être blanc */
 #mail #email{
