@@ -113,6 +113,11 @@ header h2{
 	letter-spacing: 1px;
 }
 
+}
+img[id=logo]{
+	margin-left:-20px;
+}
+
 /* Formulaire */
 
 #fleche{
@@ -130,10 +135,6 @@ header form{
 	display: inline-block;
 	border: solid 2px white;
 	border-radius: 5px;
-	/*width: 371px;*/
-}
-img[id=logo]{
-	margin-left:-20px;
 }
 
 header input{
@@ -141,26 +142,23 @@ header input{
 	padding: 0;
 }
 
-input::-webkit-input-placeholder { opacity:1;
-	color: black;
+input::-webkit-input-placeholder { 
+	color: rgba(255,255,255,1);
 	font-size: 18px; }
-input::-moz-placeholder { opacity:1;
-	color: black;
+input::-moz-placeholder { 
+	color: rgba(255,255,255,1);
 	font-size: 18px; }
-input:-ms-input-placeholder { opacity:1;
-	color: black;
+input:-ms-input-placeholder { 
+	color: rgba(255,255,255,1);
 	font-size: 18px;; }
-input::placeholder { opacity:1;
-	color: black;
+input::placeholder { 
+	color: rgba(255,255,255,1);
 	font-size: 18px; }
 
-/*à voir: "entrez votre e-mail" n'arrive pas à être blanc */
 #mail #email{
 	height: 30px;
-	width: 200px;
-	background-color: white;
-	opacity: 0.3;
-	color: black;
+	width: 190px;
+	background: rgba(255,255,255,0.3);
 	font-size: 18px;
 	font-family: HNThin;
 	padding-left: 10px;
@@ -170,7 +168,7 @@ input::placeholder { opacity:1;
 }
 #mail #submit{
 	height: 30px;
-	width: 190px;
+	width: 180px;
 	margin: 0;
 	padding: 0;
 	border: none;
@@ -179,8 +177,6 @@ input::placeholder { opacity:1;
 	font-size: 18px;
 	font-family: HNThin;
 	border-radius: 0px 4px 4px 0px;
-	position: relative;
-	left: -4px;
 }
 /* FIN HEADER */
 
