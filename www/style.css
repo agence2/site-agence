@@ -60,9 +60,8 @@ html, body{
 /* MENU */
 nav{
 	position: fixed;
-	right: 2%;
-	/*left: 1250px;*/
-	top:200px;
+	right: 1%;
+	top:30%;
 }
 nav ul { 
 	list-style-type: none;
@@ -155,7 +154,7 @@ input::placeholder {
 	color: rgba(255,255,255,1);
 	font-size: 18px; }
 
-#mail #email{
+#mail #email {
 	height: 30px;
 	width: 190px;
 	background: rgba(255,255,255,0.3);
@@ -166,7 +165,8 @@ input::placeholder {
 	border-radius: 4px 0px 0px 4px;
 	margin: 0;
 }
-#mail #submit{
+
+#mail #submit {
 	height: 30px;
 	width: 180px;
 	margin: 0;
