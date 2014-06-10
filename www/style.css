@@ -185,8 +185,10 @@ input::placeholder {
 	height:556px;
 	width: 100%;
 	margin: auto;
+	margin-bottom: 50px;
 }
 #agence #titre{
+	margin-top: 80px;
 	font-size: 48px;
 	color: #5b5f6c;
 	text-align: center;
@@ -251,3 +253,73 @@ input::placeholder {
     border: 0;
 }
 /* FIN PAGE AGENCE */
+
+/* DEBUT PARALLAX */
+.parallax{
+	background-image: url(img/parallax1.png);
+	height: 369px;
+	width: 100%;
+}
+#parallax2{
+	background-image: url(img/parallax2.png);
+	height: 369px;
+	width: 100%;
+}
+.parallax h1, #parallax2 h1{
+	font-size: 50px;
+	color: #fff;
+	font-family: HNThin;
+	text-shadow: 0px 0.5px 7px black;
+	letter-spacing: 1px;
+	margin-left: 10%;
+	margin-top: 20px;
+	padding-top: 7%;
+	width: 40%;
+}
+/* FIN PARALLAX */
+
+/* DEBUT EQUIPE */
+#equipe #titre{
+	margin-top: 80px;
+	font-size: 48px;
+	color: #5b5f6c;
+	text-align: center;
+	font-family: PNRegular;
+	margin-bottom: 2%;
+}
+#equipe h3{
+	margin-top: 0px;
+	text-align: center;
+	color: #8891a0;
+	font-size: 24px;
+	font-family: PNThin;
+}
+#equipe table{
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+}
+#equipe td{
+	padding: 10px;
+	color: #a1a1a1;
+	font-variant:small-caps;
+	font-family: PNThin;
+	font-size: 20px;
+}
+#equipe td span {
+	font-variant: normal;
+	font-family: PNThin;
+	font-size: 0.8em;
+}
+#equipe .presentation{
+	height: 120px;
+	width: 250px;
+	background-color: #cee8fa;
+	border-radius: 10px;
+	color: black;
+	font-variant: normal;
+	font-size: 0.8em;
+	text-align: justify;
+	padding: 5px;
+	vertical-align: center;
+}
