@@ -186,14 +186,15 @@ input::placeholder {
 	width: 100%;
 	margin: auto;
 }
-#agence h2{
-	margin-top: 5%;
+#agence #titre{
 	font-size: 48px;
 	color: #5b5f6c;
 	text-align: center;
 	font-family: PNRegular;
+	margin-bottom: 2%;
 }
 #agence h3{
+	margin-top: 0px;
 	text-align: center;
 	color: #8891a0;
 	font-size: 24px;
@@ -201,22 +202,40 @@ input::placeholder {
 }
 #agence ul{
 	width: 85%;
-	border: solid 1px red;
 	text-align: center;
 	margin: auto;
 	padding-left: 0px;
 }
 #agence li{
 	display: inline-block;
-	border: solid 1px blue;
 	vertical-align: top;
 }
 #agence .texte_agence{
 	width: 20%;
-	margin: 10px;
+	margin: 25px;
 }
 .texte_agence img{
 	float: left;
+	width: 60px;
+	height: 60px;
+}
+.texte_agence h2{
+	font-size: 19px;
+	font-family: HNLight;
+	color: #333333;
+	text-align: left;
+	padding-left: 35%;
+	padding-right: 15%;
+	position: relative;
+	top: -18px;
+}
+.texte_agence p{
+	font-family: HNThin;
+	color: #777777;
+	font-size: 19px;
+	text-align: justify;
+	position: relative;
+	top: -20px;
 }
 #agence .video{
 	width: 50%;
