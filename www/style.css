@@ -333,3 +333,10 @@ input::placeholder {
 	left: -12px;
 	top: -57px;
 }
+#equipe ul{
+	margin:0px;
+	padding: 0px;
+}
+#equipe li{
+	display: inline;
+}
