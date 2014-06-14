@@ -456,3 +456,19 @@ footer #middle{
 	width: 100px;
 	text-align: center;
 }
+#middle p{
+	width: 200px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	left: -50px;
+}
+#contact{
+	width: 250px;
+	height: 30px;
+	background-color: #2eb6c6;
+	border-radius: 10px 10px 0px 0px;
+	position: relative;
+	top: -77px;
+	right: -900px;
+}
