@@ -394,3 +394,43 @@ input::placeholder {
 	padding: 5px;
 }
 /* FIN PROJET */
+
+/* DEBUT BLOG */
+#blog{
+	text-align: center;
+	padding: 0px;
+	margin-top: 90px;
+}
+#blog li{
+	display: inline-block;
+	width: 340px;
+	height: 300px;
+	margin: 0px;
+	padding: 0px;
+}
+#blog1{
+	background-image: url(img/blog1.png);
+}
+#blog2{
+	background-image: url(img/blog2.png);
+}
+#blog3{
+	background-image: url(img/blog3.png);
+}
+#blog h3{
+	font-family: PNThin;
+	color: white;
+	margin: 0px;
+	text-align: left;
+	font-size: 2.5em;
+	width: 200px;
+	border-bottom: 1px white solid;
+}
+#blog p{
+	font-family: PNThin;
+	color: white;
+	text-align: left;
+	font-size: 1.2em;
+	position: relative;
+	bottom: -140px;
+}
