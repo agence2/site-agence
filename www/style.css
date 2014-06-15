@@ -258,7 +258,7 @@ header input::placeholder {
 #agence .video{
 	width: 50%;
 }
-#agence iframe{
+#agence video{
 	text-align: center;
 	display: block;
     width: 100%;
