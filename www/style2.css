@@ -34,6 +34,7 @@ src: url('fonts/proximanova-thin-webfont.eot#iefix') format('embedded-opentype')
 body{
 	text-align: center;
 	font-family: PNRegular;
+	margin-bottom: 80px;
 }
 h1{
 	margin-top: 80px;
@@ -43,13 +44,32 @@ h1{
 	margin-bottom: 2%;
 }
 h2{
-	margin-top: 0px;
 	text-align: center;
 	color: #8891a0;
 	font-size: 24px;
 	font-family: PNThin;
-	margin-bottom: 70px;
+}
+h3{
+	margin-top: 90px;
+}
+h4{
+	color: #8891a0;
+}
+#rouge{
+	color: #e8565d;
+}
+#vert{
+	color: #1bb99c;
+}
+#orange{
+	color: #fbaf5d;
 }
 .date{
 	color: #8891a0;
+}
+.article{
+	width: 800px;
+	text-align: center;
+	margin: auto;
+	color: #5b5f6c;
 }
