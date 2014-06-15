@@ -12,12 +12,12 @@
 		<div class="content">
 			<nav>
 				<ul>
-					<a href="#"> <li><span>Accueil</span><img src="img/home.png" alt="page d'accueil"></li> </a>
-					<a href="#agence"> <li><span>Agence</span><img src="img/eye.png" alt="page de présentation de l'agence"></li> </a>
-					<a href="#equipe"> <li><span>Equipe</span><img src="img/user.png" alt="page de présentation de l'équipe"></li> </a>
-					<a href="#projet"> <li><span>Projet</span><img src="img/projet.png" alt="page de présentation du projet"></li> </a>
-					<a href="#blog"> <li><span>Blog</span><img src="img/news.png" alt="article du mois"></li> </a>
-					<a href="#contact"> <li><span>Contact</span><img src="img/contact.png" alt="contact"></li> </a>
+					<a href="#"><li id="liaccueil"><span id="spanAccueil">Accueil</span><img src="img/home.png" alt="page d'accueil"></li></a>
+					<a href="#agence"><li id="liagence"><span id="spanAgence">Agence</span><img src="img/eye.png" alt="page de présentation de l'agence"></li></a>
+					<a href="#equipe"><li id="liequipe"><span id="spanEquipe">Equipe</span><img src="img/user.png" alt="page de présentation de l'équipe"></li></a>
+					<a href="#projet"><li id="liprojet"><span id="spanProjet">Projet</span><img src="img/projet.png" alt="page de présentation du projet"></li></a>
+					<a href="#blog"><li id="liblog"><span id="spanBlog">Blog</span><img src="img/news.png" alt="article du mois"></li></a>
+					<a href="#contact"><li id="licontact"><span id="spanContact">Contact</span><img src="img/contact.png" alt="contact"></li></a>
 				</ul>
 			</nav>
 
@@ -94,7 +94,8 @@
 					</ul>
 					<div class="presentation">
 						POP music : "Brooklyn Baby" de Lana Del Rey<br>
-						POP movie : 
+						POP movie : The Monuments Men de Georges Clooney<br>
+						POP event : La coupe de monde de football au Brésil... Encore et toujours le foot... J'en peux plus ! 
 					<br>
 					<img id="flecheLea" src="img/forme2.png">
 					</div>
@@ -266,12 +267,52 @@ Le Top 50? Dépassé dit Twitter. Pour mesurer avec pertinence la popularité d'
 			    },
 			});
 			$("nav span").hide();
-			$('nav li').on({
+			$('#liaccueil').on({
 				'mouseenter': function(){
-					$('nav span').slideUp(1000);
+					$('#spanAccueil').slideDown(400);
 				},
 				'mouseleave': function(){
-						$('nav span').slideDown('slow');
+					$('#spanAccueil').slideUp(400);
+				}
+			});
+			$('#liagence').on({
+				'mouseenter': function(){
+					$('#spanAgence').slideDown(400);
+				},
+				'mouseleave': function(){
+					$('#spanAgence').slideUp(400);
+				}
+			});
+			$('#liequipe').on({
+				'mouseenter': function(){
+					$('#spanEquipe').slideDown(400);
+				},
+				'mouseleave': function(){
+					$('#spanEquipe').slideUp(400);
+				}
+			});
+			$('#liprojet').on({
+				'mouseenter': function(){
+					$('#spanProjet').slideDown(400);
+				},
+				'mouseleave': function(){
+					$('#spanProjet').slideUp(400);
+				}
+			});
+			$('#liblog').on({
+				'mouseenter': function(){
+					$('#spanBlog').slideDown(400);
+				},
+				'mouseleave': function(){
+					$('#spanBlog').slideUp(400);
+				}
+			});
+			$('#licontact').on({
+				'mouseenter': function(){
+					$('#spanContact').slideDown(400);
+				},
+				'mouseleave': function(){
+					$('#spanContact').slideUp(400);
 				}
 			});
 		});
