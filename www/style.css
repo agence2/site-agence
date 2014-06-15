@@ -66,6 +66,20 @@ nav{
 nav ul { 
 	list-style-type: none;
 }
+nav li{
+	width: 120px;
+	text-align: right;
+}
+nav a li span{
+	display: inline-block;
+	text-decoration: none;
+	font-family: PNThin;
+	color: white;
+	text-shadow: 0px 0.5px 2px black;
+	font-size: 1.2em;
+	position: relative;
+	top: -10px;
+}
 /* FIN MENU */
 
 
@@ -141,16 +155,16 @@ header input{
 	padding: 0;
 }
 
-input::-webkit-input-placeholder { 
+header input::-webkit-input-placeholder { 
 	color: rgba(255,255,255,1);
 	font-size: 18px; }
-input::-moz-placeholder { 
+header input::-moz-placeholder { 
 	color: rgba(255,255,255,1);
 	font-size: 18px; }
-input:-ms-input-placeholder { 
+header input:-ms-input-placeholder { 
 	color: rgba(255,255,255,1);
 	font-size: 18px;; }
-input::placeholder { 
+header input::placeholder { 
 	color: rgba(255,255,255,1);
 	font-size: 18px; }
 
@@ -185,7 +199,9 @@ input::placeholder {
 	height:556px;
 	width: 100%;
 	margin: auto;
-	margin-bottom: 50px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
 #agence #titre{
 	margin-top: 80px;
@@ -469,13 +485,14 @@ footer{
 	background-color: #b9bbc0;
 	padding: 0px;
 }
-footer p{
+footer #adresse{
 	font-family: PNThin;
 	color: #545353;
-	margin-left: 200px;
+	margin-left: 15%;
 	padding-top: 40px;
 }
 footer #middle{
+	font-family: PNThin;
 	position: relative;
 	left: 46.5%;
 	top: -115px;
@@ -490,15 +507,17 @@ footer #middle{
 	left: -50px;
 }
 #contact{
+	font-family: PNThin;
 	width: 220px;
 	height: 30px;
 	background-color: #2eb6c6;
 	border-radius: 10px 10px 0px 0px;
 	position: relative;
 	top: -2px;
-	right: -950px;
+	right: -70%;
 	margin: 0px;
 	padding: 0px;
+	z-index: 6;
 }
 #contact #enveloppe{
 	margin-top: 7px;
@@ -524,4 +543,53 @@ footer #middle{
 #contact ul{
 	padding:0px;
 	margin: 0px;
+}
+#contact_open{
+	width: 218px;
+	height: 320px;
+	background-color: #fefee0;
+	border: solid 1px #2eb6c6;
+	position: absolute;
+	top: 4495px;
+	left: 70%;
+	z-index: 5;
+}
+#contact_open form{
+	margin:7px;
+}
+#contact_open input{
+	width: 198px;
+	margin-bottom: 10px;
+	height: 25px;
+	padding-left: 5px;
+	font-family: PNThin;
+	color: rgba(46,182,198,1); 
+	border: solid 1px #2eb6c6;
+}
+#contact_open input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+	color: rgba(46,182,198,1); 
+	font-family: PNThin;
+}
+#contact_open input:-moz-placeholder, textarea:-moz-placeholder { 
+	color: rgba(46,182,198,1);
+	font-family: PNThin;
+}
+#contact_open input:-ms-input-placeholder, textarea:-ms-textarea-placeholder { 
+	color: rgba(46,182,198,1);
+	font-family: PNThin;
+}
+#contact_open input::placeholder, textarea::placeholder{  
+	color: rgba(46,182,198,1);
+	font-family: PNThin;
+}
+#contact_open textarea{
+	width: 196px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	font-family: PNThin;
+	color: rgba(46,182,198,1); 
+	border: solid 1px #2eb6c6;
+}
+#contact_open #submit{
+	width: 205px;
 }

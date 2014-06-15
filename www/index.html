@@ -12,12 +12,12 @@
 		<div class="content">
 			<nav>
 				<ul>
-					<a href="#"> <li><img src="img/home.png" alt="page d'accueil"></li> </a>
-					<a href="#"> <li><img src="img/eye.png" alt="page de présentation de l'agence"></li> </a>
-					<a href="#"> <li><img src="img/user.png" alt="page de présentation de l'équipe"></li> </a>
-					<a href="#"> <li><img src="img/projet.png" alt="page de présentation du projet"></li> </a>
-					<a href="#"> <li><img src="img/news.png" alt="article du mois"></li> </a>
-					<a href="#"> <li><img src="img/contact.png" alt="contact"></li> </a>
+					<a href="#"> <li><span>Accueil</span><img src="img/home.png" alt="page d'accueil"></li> </a>
+					<a href="#agence"> <li><span>Agence</span><img src="img/eye.png" alt="page de présentation de l'agence"></li> </a>
+					<a href="#equipe"> <li><span>Equipe</span><img src="img/user.png" alt="page de présentation de l'équipe"></li> </a>
+					<a href="#projet"> <li><span>Projet</span><img src="img/projet.png" alt="page de présentation du projet"></li> </a>
+					<a href="#blog"> <li><span>Blog</span><img src="img/news.png" alt="article du mois"></li> </a>
+					<a href="#footer"> <li><span>Contact</span><img src="img/contact.png" alt="contact"></li> </a>
 				</ul>
 			</nav>
 
@@ -112,7 +112,10 @@
 						<li><img src="img/facebook.png" alt="facebook"></li>
 						<li><img src="img/linkedin.png" alt="linkedin"></li>
 					</ul>
-					<div class="presentation">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+					<div class="presentation">
+						POP music : "La La La" de Shakira<br>
+						POP movie : X-men Days of Futur Past de Bryan Singer<br>
+						POP event : Réaction des gens lors de la bataille de Oberyn Martell contre la Montagne dans l'épisode 8 de la saison 4 de Games of Throne.
 					<br>
 					<img id="flecheRaphael" src="img/forme.png">
 					</div>
@@ -231,12 +234,39 @@ Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt u
 				<li><img id="fleche_contact" src="img/fleche_contact.png"></li>
 			</ul>
 		</div>
+
+
 		<div id="middle">
 			<img src="img/facebook.png">
 			<img src="img/twitter.png">
 			<p>© 2014</p>
 			<p>Made with love in France.</p>
 		</div>
+		<div id="contact_open">
+			<form action="formulaire.html" method="get">
+				<input type="text" name="nom" id="nom" placeholder="Nom" required>
+				</br>
+				<input type="text" name="premon" id="prenom" placeholder="Prénom" required>
+				</br>
+				<input type="email" name="email" id="email" placeholder="Adresse e-mail" required>
+				</br>
+				<textarea name="remarques" id="remarques" placeholder="Votre message" cols="39" rows="8" required></textarea>
+				<input id="submit" type="submit" value="Envoyer">
+			</form>
+		</div>
 	</footer>
+
+	<script src="jquery.js"></script>
+	<script>
+		$(function() {
+			$("#contact_open").hide();
+			$('#contact').on({
+			    click : function(){
+			        $('#contact_open').slideToggle(500);
+			    },
+			});
+		});
+
+	</script>
 </body>
 </html>
