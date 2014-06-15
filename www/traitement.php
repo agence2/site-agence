@@ -1,13 +1,13 @@
 <?php
-ini_set("SMTP","smtp.gmail.com" );
-ini_set("smtp_port","465");
+ini_set("SMTP", "smtp.orange.fr"); 
+ini_set("smtp_port", 465);
 
 $msg_erreur = "Erreur. Les champs suivants doivent être obligatoirement 
 remplis :<br/><br/>";
 $msg_ok = "Votre message a bien été envoyé.";
 $message = $msg_erreur;
 define ('MAIL_DESTINATAIRE','lea.livran@gmail.com'); // remplacer par votre email
-define ('MAIL_SUJET','Message de Panoreyes.fr');
+define ('MAIL_SUJET','Message de Panoreyes');
  
 if (empty ($_POST['nom'])) 
 $message .= "Votre nom<br/>";
@@ -40,8 +40,17 @@ $mail_corps  = "Message de : $nom $prenom\n";
 $mail_corps .= "Adresse mail : $email\n";
 $mail_corps .= $contenu;
  
+$to      = 'baptmagntaville@hotmail.fr';
+ $subject = 'the subject';
+ $message = 'hello';
+ $headers = 'From: blabla@example.com' . "\r\n" .
+     'Reply-To: blibli@example.com' . "\r\n" .
+     'X-Mailer: PHP/' . phpversion();
+
+ 
+
 // envoi du mail
-if (mail (MAIL_DESTINATAIRE,MAIL_SUJET,$mail_corps,$mail_entete)) {
+if (mail($to, $subject, $message, $headers)) {
   //Le mail est bien expédié
   echo  $msg_ok;
 } else {

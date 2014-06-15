@@ -202,18 +202,18 @@
 	<ul id="blog">
 		<li id="blog1">
 			<h3>8 mai</h3>
-			<p><u>Lorem ipsum</u><br>
-Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p><u>Le monde de la culture pèse 7 fois plus lourd que l'industrie automobile</u><br>
+C'est une surprise de taille : la culture, 5ème secteur économique français, pèse plus lourd que le luxe, l'automobile ou les télécommunications...</p>
 		</li>
 		<li id="blog2">
 			<h3>4 mai</h3>
-			<p><u>Lorem ipsum</u><br>
-Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p><u>Popcorn Time : le stream parfait</u><br>
+Popcorn Time est un ultimatum adressé aux industries culturelles, les pressant de se défaire de leur modèle obsolète.</p>
 		</li>
 		<li id="blog3">
 			<h3>1 mai</h3>
-			<p><u>Lorem ipsum</u><br>
-Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p><u>Twitter s'associe avec Billboard pour créer un classement musical en temps réel</u><br>
+Le Top 50? Dépassé dit Twitter. Pour mesurer avec pertinence la popularité d'une musique, il faut aller là où les gens l'écoutent: sur Internet.</p>
 		</li>
 	</ul>
 	<!-- FIN BLOG -->
@@ -264,6 +264,15 @@ Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt u
 			    click : function(){
 			        $('#contact_open').slideToggle(500);
 			    },
+			});
+			$("nav span").hide();
+			$('nav li').on({
+				'mouseenter': function(){
+					$('nav span').slideUp(1000);
+				},
+				'mouseleave': function(){
+						$('nav span').slideDown('slow');
+				}
 			});
 		});
 

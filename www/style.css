@@ -438,12 +438,16 @@ header input::placeholder {
 }
 #blog1{
 	background-image: url(img/blog1.png);
+	position: relative;
+	top: 44px;
 }
 #blog2{
 	background-image: url(img/blog2.png);
 }
 #blog3{
 	background-image: url(img/blog3.png);
+	position: relative;
+	top: 66px;
 }
 #blog h3{
 	font-family: PNThin;
@@ -459,8 +463,18 @@ header input::placeholder {
 	color: white;
 	text-align: left;
 	font-size: 1.2em;
+}
+#blog1 p{
 	position: relative;
-	bottom: -140px;
+	bottom: -100px;
+}
+#blog2 p{
+	position: relative;
+	bottom: -145px;
+}
+#blog3 p{
+	position: relative;
+	bottom: -77px;
 }
 /* FIN BLOG */
 
@@ -554,7 +568,7 @@ footer #middle{
 	background-color: #fefee0;
 	border: solid 1px #2eb6c6;
 	position: absolute;
-	top: 4495px;
+	top: 4560px;
 	left: 70%;
 	z-index: 5;
 }
