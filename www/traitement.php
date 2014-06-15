@@ -1,5 +1,6 @@
 <?php
-ini_set('SMTP','smtp.gmail.com');
+ini_set("SMTP","smtp.gmail.com" );
+ini_set("smtp_port","465");
 
 $msg_erreur = "Erreur. Les champs suivants doivent être obligatoirement 
 remplis :<br/><br/>";
