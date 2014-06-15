@@ -32,8 +32,8 @@ src: url('fonts/proximanova-thin-webfont.eot#iefix') format('embedded-opentype')
      url('fonts/proximanova-thin-webfont.ttf')  format('truetype');
 }
 html, body{
-	margin:0;
-	padding: 0;
+	margin:0px;
+	padding: 0px;
 	height: 100%;
 	/* Configuration pour avoir des polices sexy */
 	text-rendering: optimizeLegibility;
@@ -256,7 +256,7 @@ input::placeholder {
 
 /* DEBUT PARALLAX */
 .parallax{
-	background-image: url(img/parallax1.png);
+	background-image: url(img/hadoken.png);
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -266,7 +266,7 @@ input::placeholder {
 	margin-top: 100px;
 }
 #parallax2{
-	background-image: url(img/parallax2.png);
+	background-image: url(img/parallax_ordi.png);
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -392,18 +392,18 @@ input::placeholder {
 #projet .bleu{
 	border-radius: 20px;
 	border: solid 1px #ccd2db;
-	width: 120px;
+	width: 130px;
 	margin: auto;
 	padding: 5px;
-	height: 230px;
+	height: 210px;
 }
 #projet .rouge{
 	border-radius: 20px;
 	border: solid 1px #f99e86;
-	width: 120px;
+	width: 130px;
 	margin: auto;
 	padding: 5px;
-	height: 230px;
+	height: 210px;
 }
 /* FIN PROJET */
 
@@ -449,10 +449,25 @@ input::placeholder {
 /* FIN BLOG */
 
 /* DEBUT FOOTER */
+#texteHaut{
+	text-align: center;
+	margin-top: 130px;
+	font-family: PNThin;
+	color: #b9bbc0;
+	margin-bottom: 0px;	
+}
+#haut_de_page{
+	text-align: center;
+	margin: auto;
+	text-align: center;
+	padding: 0px;
+	position: relative;
+	bottom: -22px;
+}
 footer{
 	height: 156px;
 	background-color: #b9bbc0;
-	margin-top: 130px;
+	padding: 0px;
 }
 footer p{
 	font-family: PNThin;
@@ -462,8 +477,8 @@ footer p{
 }
 footer #middle{
 	position: relative;
-	left: 47%;
-	top: -85px;
+	left: 46.5%;
+	top: -115px;
 	width: 100px;
 	text-align: center;
 }
@@ -475,11 +490,38 @@ footer #middle{
 	left: -50px;
 }
 #contact{
-	width: 250px;
+	width: 220px;
 	height: 30px;
 	background-color: #2eb6c6;
 	border-radius: 10px 10px 0px 0px;
 	position: relative;
-	top: -77px;
-	right: -900px;
+	top: -2px;
+	right: -950px;
+	margin: 0px;
+	padding: 0px;
+}
+#contact #enveloppe{
+	margin-top: 7px;
+	margin-left: 15px;
+}
+#contact p{
+	width: 100px;
+	color: white;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 0px;
+}
+#contact #fleche_contact{
+	margin: 0px;
+	margin-left: 30px;
+	padding: 0px;
+}
+#contact li{
+	display: inline-block;
+}
+#contact ul{
+	padding:0px;
+	margin: 0px;
 }
