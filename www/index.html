@@ -17,7 +17,7 @@
 					<a href="#equipe"> <li><span>Equipe</span><img src="img/user.png" alt="page de présentation de l'équipe"></li> </a>
 					<a href="#projet"> <li><span>Projet</span><img src="img/projet.png" alt="page de présentation du projet"></li> </a>
 					<a href="#blog"> <li><span>Blog</span><img src="img/news.png" alt="article du mois"></li> </a>
-					<a href="#footer"> <li><span>Contact</span><img src="img/contact.png" alt="contact"></li> </a>
+					<a href="#contact"> <li><span>Contact</span><img src="img/contact.png" alt="contact"></li> </a>
 				</ul>
 			</nav>
 
@@ -218,8 +218,8 @@ Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt u
 	<!-- FIN BLOG -->
 
 	<!-- DEBUT FOOTER -->
-	<p id="texteHaut">haut de page</p>
-	<p id="haut_de_page"><img src="img/fleche_haut.png"></p>
+	<a href="#"><p id="texteHaut">haut de page</p></a>
+	<a href="#"><p id="haut_de_page"><img src="img/fleche_haut.png"></p></a>
 	<footer>
 
 		<p id="adresse">Panoreyes agency<br>
@@ -234,8 +234,6 @@ Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt u
 				<li><img id="fleche_contact" src="img/fleche_contact.png"></li>
 			</ul>
 		</div>
-
-
 		<div id="middle">
 			<img src="img/facebook.png">
 			<img src="img/twitter.png">
@@ -243,17 +241,18 @@ Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt u
 			<p>Made with love in France.</p>
 		</div>
 		<div id="contact_open">
-			<form action="formulaire.html" method="get">
+			<form action="traitement.php" method="post">
 				<input type="text" name="nom" id="nom" placeholder="Nom" required>
 				</br>
-				<input type="text" name="premon" id="prenom" placeholder="Prénom" required>
+				<input type="text" name="prenom" id="prenom" placeholder="Prénom" required>
 				</br>
 				<input type="email" name="email" id="email" placeholder="Adresse e-mail" required>
 				</br>
-				<textarea name="remarques" id="remarques" placeholder="Votre message" cols="39" rows="8" required></textarea>
+				<textarea name="contenu" id="contenu" placeholder="Votre message" cols="39" rows="8" required></textarea>
 				<input id="submit" type="submit" value="Envoyer">
 			</form>
 		</div>
+
 	</footer>
 
 	<script src="jquery.js"></script>

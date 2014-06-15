@@ -465,12 +465,16 @@ header input::placeholder {
 /* FIN BLOG */
 
 /* DEBUT FOOTER */
-#texteHaut{
+#texteHaut, a{
 	text-align: center;
 	margin-top: 130px;
 	font-family: PNThin;
 	color: #b9bbc0;
-	margin-bottom: 0px;	
+	margin-bottom: 0px;
+	text-decoration: none;
+}
+a #texteHaut:hover{
+	text-decoration: underline;
 }
 #haut_de_page{
 	text-align: center;
