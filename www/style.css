@@ -230,7 +230,9 @@ header input::placeholder {
 }
 #agence .texte_agence{
 	width: 20%;
-	margin: 25px;
+	margin: 0 25px;
+	position: relative;
+	bottom: 30px;
 }
 .texte_agence img{
 	float: left;
@@ -253,20 +255,7 @@ header input::placeholder {
 	font-size: 19px;
 	text-align: justify;
 	position: relative;
-	top: -20px;
-}
-#agence .video{
-	width: 50%;
-}
-#agence iframe{
-	text-align: center;
-	display: block;
-    width: 100%;
-    /*height: 315px;*/
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 8%;
-    border: 0;
+	bottom: 20px;
 }
 /* FIN PAGE AGENCE */
 
@@ -299,7 +288,7 @@ header input::placeholder {
 	margin-left: 10%;
 	margin-top: 20px;
 	padding-top: 7%;
-	width: 40%;
+	width: 50%;
 }
 /* FIN PARALLAX */
 
